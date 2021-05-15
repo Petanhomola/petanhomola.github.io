@@ -28,6 +28,7 @@ header {
 
 .header-h1-a {
   font-family: "Abril Fatface", cursive;
+  color: #222;
   font-weight: lighter;
   margin: 0px;
   padding: 0px;
@@ -37,6 +38,7 @@ header {
 
 .header-h1-b {
   font-family: "Abril Fatface", cursive;
+  color: #222;
   font-weight: lighter;
   margin: 0px;
   padding: 0px;
@@ -44,45 +46,57 @@ header {
 }
 
 main {
-  width: 620px;
+  width: 700px;
+  color: #222;
   font-family: "Josefin Sans", sans-serif;
   font-size: 16.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.narrow{
+  width: 620px;
+}
 blockquote {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
   color: white;
-  font-size: 37px;
-  background-color: #313102;
+  font-size: 44px;
+  background-color: #444;
   font-family: "Abril Fatface", cursive;
-  display: flex;
+  display: block;
+  position: relative;
+  padding: 20px 45px 88px 0px;
+  width: 700px;
 }
 
 blockquote::before {
   content: "\201C";
   font-size: 3.5em;
-  position: relative;
-  top: -34px;
+  position: absolute;
+  top: -35px;
   left: -2px;
 }
 blockquote p {
-  display: flex;
+  display: block;
   position: relative;
-  top: 6px;
-  left: -10px;
-  padding: 20px 0px;
+  top: 35px;
+  left: 55px;
+  padding: 0px 5px;
+  margin: 0 auto;  
 }
 
 h2 {
   font-family: "Merriweather Sans", sans-serif;
   text-transform: uppercase;
+  color: #222;
   font-size: 20px;
   margin: 50px 0px;
 }
 
 mark {
   font-family: "Josefin Sans", sans-serif;
+  color: #222;
   background-color: white;
   font-size: 20px;
   font-weight: bold;
@@ -90,6 +104,7 @@ mark {
 
 .h3a {
   font-family: "Josefin Sans", sans-serif;
+  color: #222;
   font-weight: bold;
   font-size: 25px;
   padding: 0px;
@@ -98,6 +113,7 @@ mark {
 
 .h3b {
   font-family: "Josefin Sans", sans-serif;
+  color: #222;
   font-style: italic;
   font-size: 17px;
   margin: 0px;
