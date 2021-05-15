@@ -108,7 +108,7 @@ mark {
   font-weight: bold;
   font-size: 25px;
   padding: 0px;
-  margin: 2px;
+  margin: 60px 2px 0px 2px;
 }
 
 .h3b {
@@ -116,7 +116,7 @@ mark {
   color: #222;
   font-style: italic;
   font-size: 17px;
-  margin: 0px;
+  margin: 0px 0px -10px 0px;
   padding: 0px;
 }
 
@@ -130,5 +130,5 @@ p {
 }
 
 ul {
-  list-style-type: square;
+   list-style-type: square;
 }
